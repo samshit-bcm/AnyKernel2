@@ -4,20 +4,20 @@
 ## AnyKernel setup
 # begin properties
 properties() {
-kernel.string=
+kernel.string=Zanin Kernel
 do.devicecheck=1
 do.modules=0
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=
-device.name2=
-device.name3=
+device.name1=zanin
+device.name2=Zanin
+device.name3=GT-B5330
 device.name4=
 device.name5=
 } # end properties
 
 # shell variables
-block=;
+block=/dev/block/mmcblk0p5;
 is_slot_device=0;
 
 
